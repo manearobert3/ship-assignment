@@ -1,0 +1,36 @@
+# Ignore Visual Studio temporary files, build results, and cache
+.vs/
+*.user
+*.suo
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore Rider / JetBrains IDE files
+.idea/
+
+# Ignore ASP.NET Core secrets folder (if using)
+*.secret.json
+
+# Ignore logs
+*.log
+
+# Ignore database files (if generated locally)
+*.mdf
+*.ldf
+
+# Ignore EF Core Migrations snapshot (optional, if you don't want to track it)
+# Migrations/
+
+# Ignore npm artifacts if any
+node_modules/
+dist/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+
+# Ignore publish outputs
+publish/

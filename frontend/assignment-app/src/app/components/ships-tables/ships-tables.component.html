@@ -1,0 +1,8 @@
+<app-generic-table
+  [columns]="shipColumns"
+  [dataSource]="ships"
+  [actions]="['delete']"
+  [isLoading]="isLoading"
+  (delete)="deleteShip($event)"
+>
+</app-generic-table>
